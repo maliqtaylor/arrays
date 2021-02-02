@@ -1,34 +1,32 @@
-//arrays
+//----------arrays----------
 const numbers = [3, 4]
+//-------add elements-------
 
-//add elements to end 
+//to end 
 numbers.push(5, 6)
 
-//add elements to beginning
+//to beginning
 numbers.unshift(1, 2)
 
-//add elements to middle 
+//to middle 
 numbers.splice(2, 0, 'a', 'b')
 /*parameters for splice are ->
 (startIndex, deleteCount, elements you wany to add)
 */
 
-//----------------------
+//----------remove elements-------------
 
-//remove elements from the end
+//from the end
 numbers.pop() //returns removed element
 
-//remove elements from the front
+//from the front
 numbers.shift() //returns removed element
 
-//remove middle elements
+//from the middle
 numbers.splice(1, 2)
 //startIndex also gets deleted (startIndex inclusive)
 
-//----------------------
-
-//combining arrays
-
+//----------combining arrays-------------
 /*empty array
 
 numbers.length = 0
@@ -37,9 +35,7 @@ numbers =[]
 
 */
 
-//-------------------------------------
-
-//finding elements (primitives)
+//-----finding elements (primitives)-----
 console.log(numbers.indexOf('a'));
 //returns index of 'a' in numbers array
 
@@ -52,9 +48,7 @@ console.log(numbers.includes(3))
 console.log(numbers.includes(13))
 //returns false
 
-//----------------------
-
-//finding elements (reference)
+//------finding elements (reference)-------
 const students = [
   { id: 1, name: 'a' },
   { id: 2, name: 'b' }
