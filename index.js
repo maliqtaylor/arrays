@@ -61,4 +61,6 @@ const studentIdx = students.findIndex((student) => student.name === 'b')
 console.log(studentIdx);
 //similiar to indexOf but for reference type elements
 
-//----------------  ---------------------
+//------combining-----
+
+//------slicing-------
